@@ -1,12 +1,231 @@
-<?xml version="1.0"?>
-<catalog>
-   <book id="bk101">
-      <author>Gambardella, Matthew</author>
-      <title>XML Developer's Guide</title>
-      <genre>Computer</genre>
-      <price>44.95</price>
-      <publish_date>2000-10-01</publish_date>
-      <description>An in-depth look at creating applications 
-      with XML.</description>
-   </book>
-</catalog>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Frandroid</title>
+	<atom:link href="https://www.frandroid.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.frandroid.com/</link>
+	<description>La référence tech pour s’informer, comparer et bien acheter</description>
+	<lastBuildDate>Mon, 02 Feb 2026 13:48:09 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://images.frandroid.com/wp-content/uploads/2019/12/cropped-flarge-32x32.png</url>
+	<title>Frandroid</title>
+	<link>https://www.frandroid.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cette tour PC Alienware avec près de 30 % de remise (RTX 5070, Ultra 7, 32 Go RAM) revient moins cher qu’un PC monté maison</title>
+		<link>https://www.frandroid.com/bons-plans/2963095_cette-tour-pc-alienware-avec-pres-de-30-de-remise-rtx-5070-ultra-7-32-go-ram-revient-moins-cher-quun-pc-monte-maison</link>
+					<comments>https://www.frandroid.com/bons-plans/2963095_cette-tour-pc-alienware-avec-pres-de-30-de-remise-rtx-5070-ultra-7-32-go-ram-revient-moins-cher-quun-pc-monte-maison#respond</comments>
+		
+		<dc:creator><![CDATA[Mélanie Capelli]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 09:05:00 +0000</pubDate>
+				<category><![CDATA[Alienware]]></category>
+		<category><![CDATA[Bons plans]]></category>
+		<category><![CDATA[Bons plans gaming]]></category>
+		<category><![CDATA[Marques]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[PC fixes]]></category>
+		<category><![CDATA[Produits]]></category>
+		<category><![CDATA[Bons plans Amazon]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/bons-plans/2963095_cette-tour-pc-alienware-avec-pres-de-30-de-remise-rtx-5070-ultra-7-32-go-ram-revient-moins-cher-quun-pc-monte-maison</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Avec la pénurie des composants et la hausse des prix de la RAM et du stockage, cette tour Alienware affichée à près de 30 % de remise tombe à point nommé : avec sa RTX 5070, son Intel Ultra 7 et ses 32 Go de RAM, elle offre une configuration taillée pour le 1440p et la 4K à un tarif bien plus intéressant que le montage d’un PC équivalent.</div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/02/alienware-aurora-pc-gamer.jpg?resize=1200,675&key=2274a199&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>Avec la pénurie des composants et la hausse des prix de la RAM et du stockage, cette tour Alienware affichée à près de 30 % de remise tombe à point nommé : avec sa RTX 5070, son Intel Ultra 7 et ses 32 Go de RAM, elle offre une configuration taillée pour le 1440p et la 4K à un tarif bien plus intéressant que le montage d’un PC équivalent.</div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/bons-plans/2963095_cette-tour-pc-alienware-avec-pres-de-30-de-remise-rtx-5070-ultra-7-32-go-ram-revient-moins-cher-quun-pc-monte-maison?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2963095" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p><em>Tous nos bons plans directement sur WhatsApp. Rejoignez <a target="_blank" href="https://whatsapp.com/channel/0029VabYxm5LI8YhSlD8xc05" rel="noopener">Frandroid Bons Plans</a>, zéro spam garanti.</em></p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/bons-plans/2963095_cette-tour-pc-alienware-avec-pres-de-30-de-remise-rtx-5070-ultra-7-32-go-ram-revient-moins-cher-quun-pc-monte-maison/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>B&amp;YOU Pure Fibre : Encore une augmentation de prix pour la box star de Bouygues Telecom</title>
+		<link>https://www.frandroid.com/actualites-generales/2963227_byou-pure-fibre-encore-une-augmentation-de-prix-pour-la-box-star-de-bouygues-telecom</link>
+					<comments>https://www.frandroid.com/actualites-generales/2963227_byou-pure-fibre-encore-une-augmentation-de-prix-pour-la-box-star-de-bouygues-telecom#respond</comments>
+		
+		<dc:creator><![CDATA[Axel Savoye]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 11:05:00 +0000</pubDate>
+				<category><![CDATA[Actualités Générales]]></category>
+		<category><![CDATA[B&YOU Pure Fibre]]></category>
+		<category><![CDATA[B&YOU Pure Fibre Plus]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/actualites-generales/2963227_byou-pure-fibre-encore-une-augmentation-de-prix-pour-la-box-star-de-bouygues-telecom</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Après avoir scindé son forfait Pure Fibre en deux offres distinctes, B&amp;YOU vient d'augmenter le tarif de la formule la plus avantageuse pour les nouveaux abonnés. Une nouvelle augmentation après celle de... janvier dernier.</div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2025/03/pure-fibre-bouygues-2.jpg?resize=1200,675&key=f529231e&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>Après avoir scindé son forfait Pure Fibre en deux offres distinctes, B&amp;YOU vient d'augmenter le tarif de la formule la plus avantageuse pour les nouveaux abonnés. Une nouvelle augmentation après celle de... janvier dernier.</div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/actualites-generales/2963227_byou-pure-fibre-encore-une-augmentation-de-prix-pour-la-box-star-de-bouygues-telecom?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2963227" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p><em>Abonnez-vous à <a target="_blank" href="https://shop.frandroid.com/gpfrandroid" rel="noopener">Frandroid sur Google</a> pour ne manquer aucun article !</em></p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/actualites-generales/2963227_byou-pure-fibre-encore-une-augmentation-de-prix-pour-la-box-star-de-bouygues-telecom/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Windows 11 : Microsoft avoue son erreur et pourrait réduire la présence de Copilot</title>
+		<link>https://www.frandroid.com/marques/microsoft/2962965_windows-11-microsoft-avoue-son-erreur-et-pourrait-reduire-la-presence-de-copilot</link>
+					<comments>https://www.frandroid.com/marques/microsoft/2962965_windows-11-microsoft-avoue-son-erreur-et-pourrait-reduire-la-presence-de-copilot#respond</comments>
+		
+		<dc:creator><![CDATA[Hugo Clery]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 13:05:00 +0000</pubDate>
+				<category><![CDATA[Intelligence artificielle]]></category>
+		<category><![CDATA[Marques]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[OS]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[Produits]]></category>
+		<category><![CDATA[Société]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/marques/microsoft/2962965_windows-11-microsoft-avoue-son-erreur-et-pourrait-reduire-la-presence-de-copilot</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Microsoft pourrait entièrement revoir sa stratégie liée à l'intégration de Copilot dans Windows 11, en réaction aux nombreuses critiques des utilisateurs.</div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2025/04/tuto-desinstaller-copilot-windows-11.jpg?resize=1200,675&key=ffa8074a&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" loading="lazy" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>Microsoft pourrait entièrement revoir sa stratégie liée à l'intégration de Copilot dans Windows 11, en réaction aux nombreuses critiques des utilisateurs.</div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/marques/microsoft/2962965_windows-11-microsoft-avoue-son-erreur-et-pourrait-reduire-la-presence-de-copilot?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2962965" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p>Retrouvez<strong> un résumé du meilleur de l&rsquo;actu tech tous les matins sur WhatsApp</strong>, <a href="https://whatsapp.com/channel/0029Va8V1yhCHDyphlaqT51T" target="_blank" rel="noopener">c&rsquo;est notre nouveau canal de discussion Frandroid</a> que vous pouvez rejoindre dès maintenant !</p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/marques/microsoft/2962965_windows-11-microsoft-avoue-son-erreur-et-pourrait-reduire-la-presence-de-copilot/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Enfin de retour en promo, ce purificateur d&#8217;air Dyson 3-en-1 est 100 € moins cher</title>
+		<link>https://www.frandroid.com/bons-plans/2962979_enfin-de-retour-en-promo-ce-purificateur-dair-dyson-3-en-1-est-100-e-moins-cher</link>
+					<comments>https://www.frandroid.com/bons-plans/2962979_enfin-de-retour-en-promo-ce-purificateur-dair-dyson-3-en-1-est-100-e-moins-cher#respond</comments>
+		
+		<dc:creator><![CDATA[Noémie Koskas]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 15:05:00 +0000</pubDate>
+				<category><![CDATA[Bons plans]]></category>
+		<category><![CDATA[dyson]]></category>
+		<category><![CDATA[Marques]]></category>
+		<category><![CDATA[Bons plans Boulanger]]></category>
+		<category><![CDATA[chauffage]]></category>
+		<category><![CDATA[Purificateur d'air]]></category>
+		<category><![CDATA[Soldes d'hiver 2026]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/bons-plans/2962979_enfin-de-retour-en-promo-ce-purificateur-dair-dyson-3-en-1-est-100-e-moins-cher</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Il purifie toute l'année, chauffe l'hiver et ventile l'été : le Dyson Hot+Cool HP1 est un appareil polyvalent qui s'adapte à chaque saison. En cette fin de soldes d'hiver 2026, Dyson et Boulanger l'affichent en plus à 499 euros au lieu de 599 euros.  </div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/02/dyson-hot-cool-hp1.jpg?resize=1200,675&key=979b0108&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" loading="lazy" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>Il purifie toute l'année, chauffe l'hiver et ventile l'été : le Dyson Hot+Cool HP1 est un appareil polyvalent qui s'adapte à chaque saison. En cette fin de soldes d'hiver 2026, Dyson et Boulanger l'affichent en plus à 499 euros au lieu de 599 euros.  </div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/bons-plans/2962979_enfin-de-retour-en-promo-ce-purificateur-dair-dyson-3-en-1-est-100-e-moins-cher?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2962979" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p>Chaque matin, WhatsApp s&rsquo;anime avec les dernières nouvelles tech. <a href="https://whatsapp.com/channel/0029Va8V1yhCHDyphlaqT51T" target="_blank" rel="noopener">Rejoignez notre canal Frandroid</a> pour ne rien manquer !</p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/bons-plans/2962979_enfin-de-retour-en-promo-ce-purificateur-dair-dyson-3-en-1-est-100-e-moins-cher/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>« Une question de survie » : les voitures électriques et hybrides chinoises viennent de franchir un cap historique en Europe</title>
+		<link>https://www.frandroid.com/survoltes/voitures-electriques/2963151_une-question-de-survie-les-voitures-electriques-et-hybrides-chinoises-viennent-de-franchir-un-cap-historique-en-europe</link>
+					<comments>https://www.frandroid.com/survoltes/voitures-electriques/2963151_une-question-de-survie-les-voitures-electriques-et-hybrides-chinoises-viennent-de-franchir-un-cap-historique-en-europe#respond</comments>
+		
+		<dc:creator><![CDATA[Vincent Sergère]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 17:05:00 +0000</pubDate>
+				<category><![CDATA[Survoltés]]></category>
+		<category><![CDATA[Voitures électriques]]></category>
+		<category><![CDATA[Jaecoo]]></category>
+		<category><![CDATA[Omoda Jaecoo]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/survoltes/voitures-electriques/2963151_une-question-de-survie-les-voitures-electriques-et-hybrides-chinoises-viennent-de-franchir-un-cap-historique-en-europe</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div><strong>On en parlait comme d'un risque lointain, c'est désormais une réalité statistique. En ce début d'année 2026, les constructeurs chinois ne se contentent plus de faire de la figuration en Europe. Ils s'imposent durablement, notamment grâce à une stratégie agressive sur l'hybride.</strong></div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/02/jaecoo-7-suv-copie.jpg?resize=1200,675&key=24f020a3&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" loading="lazy" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div><strong>On en parlait comme d'un risque lointain, c'est désormais une réalité statistique. En ce début d'année 2026, les constructeurs chinois ne se contentent plus de faire de la figuration en Europe. Ils s'imposent durablement, notamment grâce à une stratégie agressive sur l'hybride.</strong></div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/survoltes/voitures-electriques/2963151_une-question-de-survie-les-voitures-electriques-et-hybrides-chinoises-viennent-de-franchir-un-cap-historique-en-europe?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2963151" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p>Rejoignez-nous de 17 à 19h, un mercredi sur deux, pour l&rsquo;émission <strong>UNLOCK</strong> produite par <strong>Frandroid</strong> et <strong>Numerama</strong> ! Actus tech, interviews, astuces et analyses&#8230; On se retrouve <a href="https://www.twitch.tv/frandroidlive" target="_blank" rel="noopener">en direct sur Twitch</a> ou en rediffusion <a href="https://www.youtube.com/@unlocktalk" target="_blank" rel="noopener">sur YouTube</a> !</p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/survoltes/voitures-electriques/2963151_une-question-de-survie-les-voitures-electriques-et-hybrides-chinoises-viennent-de-franchir-un-cap-historique-en-europe/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Le Sony Xperia 10 VII voit son prix chuter sur Amazon, et ça le rend bien plus intéressant</title>
+		<link>https://www.frandroid.com/bons-plans/2962703_le-sony-xperia-10-vii-voit-son-prix-chuter-sur-amazon-et-ca-le-rend-bien-plus-interessant</link>
+					<comments>https://www.frandroid.com/bons-plans/2962703_le-sony-xperia-10-vii-voit-son-prix-chuter-sur-amazon-et-ca-le-rend-bien-plus-interessant#respond</comments>
+		
+		<dc:creator><![CDATA[Mélanie Capelli]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 18:05:00 +0000</pubDate>
+				<category><![CDATA[Bons plans]]></category>
+		<category><![CDATA[Bons plans smartphones]]></category>
+		<category><![CDATA[Marques]]></category>
+		<category><![CDATA[Produits]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Sony]]></category>
+		<category><![CDATA[Bons plans Amazon]]></category>
+		<category><![CDATA[Soldes d'hiver 2026]]></category>
+		<category><![CDATA[Sony Xperia 10 VII]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/bons-plans/2962703_le-sony-xperia-10-vii-voit-son-prix-chuter-sur-amazon-et-ca-le-rend-bien-plus-interessant</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>En promotion à 399 euros au lieu de 449 euros, le Sony Xperia 10 VII devient enfin un milieu de gamme bien placé niveau tarif, d’autant qu’il aligne désormais un écran OLED 120 Hz, un nouveau design plus moderne et une autonomie confortable.</div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/02/sony-xperia-10-vii.jpg?resize=1200,675&key=6271ecc8&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" loading="lazy" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>En promotion à 399 euros au lieu de 449 euros, le Sony Xperia 10 VII devient enfin un milieu de gamme bien placé niveau tarif, d’autant qu’il aligne désormais un écran OLED 120 Hz, un nouveau design plus moderne et une autonomie confortable.</div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/bons-plans/2962703_le-sony-xperia-10-vii-voit-son-prix-chuter-sur-amazon-et-ca-le-rend-bien-plus-interessant?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2962703" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p>Envie de retrouver les meilleurs articles de Frandroid sur Google News ? Vous pouvez suivre <strong><a href="https://news.google.com/publications/CAAqBggKMICKMDCuyQU?oc=3" target="_blank" rel="noopener null noreferrer">Frandroid sur Google News</a> en un clic.</strong></p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/bons-plans/2962703_le-sony-xperia-10-vii-voit-son-prix-chuter-sur-amazon-et-ca-le-rend-bien-plus-interessant/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Voiture électrique : cette nouvelle batterie chinoise peut se réparer toute seule avec une durée de vie d&#8217;1,8 millions de kilomètres</title>
+		<link>https://www.frandroid.com/survoltes/voitures-electriques/2962835_voiture-electrique-cette-nouvelle-batterie-chinoise-peut-se-reparer-toute-seule-avec-une-duree-de-vie-d18-millions-de-kilometres</link>
+					<comments>https://www.frandroid.com/survoltes/voitures-electriques/2962835_voiture-electrique-cette-nouvelle-batterie-chinoise-peut-se-reparer-toute-seule-avec-une-duree-de-vie-d18-millions-de-kilometres#respond</comments>
+		
+		<dc:creator><![CDATA[Marie Lizak]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2026 19:05:00 +0000</pubDate>
+				<category><![CDATA[Survoltés]]></category>
+		<category><![CDATA[Voitures électriques]]></category>
+		<category><![CDATA[Batterie lithium-ion]]></category>
+		<category><![CDATA[CATL]]></category>
+		<category><![CDATA[Charge rapide]]></category>
+		<category><![CDATA[sécurité]]></category>
+		<guid isPermaLink="false">https://www.frandroid.com/survoltes/voitures-electriques/2962835_voiture-electrique-cette-nouvelle-batterie-chinoise-peut-se-reparer-toute-seule-avec-une-duree-de-vie-d18-millions-de-kilometres</guid>
+
+					<description><![CDATA[<div class="chapo has-text-weight-semibold mb-5">
+<div>Le géant chinois CATL vient de dévoiler une nouvelle batterie totalement révolutionnaire. Cette dernière affiche une durée de vie de 1,8 million de kilomètres et permet une charge ultra-rapide. Mais ce n’est pas tout.</div>
+</div>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/02/batterie-catl.jpg?resize=1200,675&key=876e4c1d&watermark" class="attachment-full size-full wp-post-image" alt="" decoding="async" loading="lazy" /></p><p><div class="chapo has-text-weight-semibold mb-5">
+<div>Le géant chinois CATL vient de dévoiler une nouvelle batterie totalement révolutionnaire. Cette dernière affiche une durée de vie de 1,8 million de kilomètres et permet une charge ultra-rapide. Mais ce n’est pas tout.</div>
+</div></p>&nbsp;<a href="https://www.frandroid.com/survoltes/voitures-electriques/2962835_voiture-electrique-cette-nouvelle-batterie-chinoise-peut-se-reparer-toute-seule-avec-une-duree-de-vie-d18-millions-de-kilometres?utm_medium=distibuted&utm_source=rss&utm_content=directlink&utm_campaign=2962835" target="_blank">[Lire la suite]</a><hr><div data-nosnippet><p>Pour ne rater aucun bon plan, <a href="https://whatsapp.com/channel/0029VabYxm5LI8YhSlD8xc05" target="_blank" rel="noopener">rejoignez notre nouveau channel <strong>WhatsApp Frandroid Bons Plans</strong></a>, garanti sans spam !</p>
+</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://www.frandroid.com/survoltes/voitures-electriques/2962835_voiture-electrique-cette-nouvelle-batterie-chinoise-peut-se-reparer-toute-seule-avec-une-duree-de-vie-d18-millions-de-kilometres/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
