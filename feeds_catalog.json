@@ -1,0 +1,2526 @@
+{
+ "version": 7,
+ "generated": "2026-10-26",
+ "limits": {
+  "free": 3,
+  "premium": 10
+ },
+ "themes": [
+  {
+   "id": "news",
+   "label": "Actualités"
+  },
+  {
+   "id": "world",
+   "label": "International"
+  },
+  {
+   "id": "business",
+   "label": "Économie"
+  },
+  {
+   "id": "tech",
+   "label": "Technologie"
+  },
+  {
+   "id": "sport",
+   "label": "Sport"
+  },
+  {
+   "id": "science",
+   "label": "Science"
+  },
+  {
+   "id": "environment",
+   "label": "Environnement"
+  },
+  {
+   "id": "culture",
+   "label": "Culture"
+  },
+  {
+   "id": "health",
+   "label": "Santé"
+  },
+  {
+   "id": "life",
+   "label": "Vie pratique"
+  }
+ ],
+ "status_legend": {
+  "listed": "URL relevée telle quelle dans un annuaire (Feeder, Feedspot, OKDIARIO) ou une page officielle",
+  "to_check": "URL déduite d'un schéma de site connu, à tester avant publication",
+  "to_find": "Source identifiée, mais l'URL XML exacte reste à extraire de la page indiquée"
+ },
+ "languages": [
+  {
+   "code": "fr",
+   "label": "Français",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – À la une (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – National (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Mediapart",
+      "url": "https://www.mediapart.fr/articles/feed",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Pas de flux officiel vérifié. Ancienne URL à tester ; Feeder en génère un à partir de la page d'accueil (non officiel)."
+     },
+     {
+      "name": "Le Monde – À la une",
+      "url": "https://www.lemonde.fr/rss/une.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Les titres",
+      "url": "https://www.francetvinfo.fr/titres.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Figaro – Actualités",
+      "url": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Parisien",
+      "url": "https://feeds.leparisien.fr/leparisien/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Ouest-France – À la une",
+      "url": "https://www.ouest-france.fr/rss/une",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "20 Minutes – Une",
+      "url": "https://www.20minutes.fr/feeds/rss-une.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Slate.fr",
+      "url": "https://www.slate.fr/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – International (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – International",
+      "url": "https://www.lemonde.fr/international/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
+     },
+     {
+      "name": "France 24",
+      "url": "https://www.france24.com/fr/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "RFI",
+      "url": "https://www.rfi.fr/fr/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Monde",
+      "url": "https://www.francetvinfo.fr/monde.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Figaro – International",
+      "url": "https://www.lefigaro.fr/rss/figaro_international.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde diplomatique",
+      "url": "https://www.monde-diplomatique.fr/recents.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Économie (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – Économie",
+      "url": "https://www.lemonde.fr/economie/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
+     },
+     {
+      "name": "Le Figaro – Économie",
+      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Parisien – Économie",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "La Tribune",
+      "url": "https://www.latribune.fr/rss/homepage",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Challenges",
+      "url": "https://www.challenges.fr/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Marchés",
+      "url": "https://www.franceinfo.fr/economie/bourse/marches.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Technologie (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "FrAndroid",
+      "url": "https://www.frandroid.com/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Même URL que votre application."
+     },
+     {
+      "name": "Le Monde – Pixels",
+      "url": "https://www.lemonde.fr/pixels/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique ; à tester."
+     },
+     {
+      "name": "Les Numériques – Tests",
+      "url": "https://www.lesnumeriques.com/rss-tests.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Mac4Ever",
+      "url": "https://www.mac4ever.com/rss/actu",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Tech / Web",
+      "url": "http://www.francetvinfo.fr/internet.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Futura – High-Tech",
+      "url": "https://www.futura-sciences.com/rss/high-tech/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde Informatique – Sécurité",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sport (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – Sport",
+      "url": "https://www.lemonde.fr/sport/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique ; à tester."
+     },
+     {
+      "name": "franceinfo – Football",
+      "url": "https://www.franceinfo.fr/sports/foot.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Tennis",
+      "url": "https://www.franceinfo.fr/sports/tennis.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Basket",
+      "url": "https://www.franceinfo.fr/sports/basket.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Parisien – Sports",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "RFI – Sports",
+      "url": "https://www.rfi.fr/fr/sports/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Science (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – Sciences",
+      "url": "https://www.lemonde.fr/sciences/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique ; à tester."
+     },
+     {
+      "name": "Futura – Actualités",
+      "url": "https://www.futura-sciences.com/rss/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Futura – Espace",
+      "url": "https://www.futura-sciences.com/rss/espace/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Figaro – Sciences et environnement",
+      "url": "https://www.lefigaro.fr/rss/figaro_sciences.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "franceinfo – Sciences",
+      "url": "http://www.francetvinfo.fr/sciences.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "RFI – Sciences",
+      "url": "https://www.rfi.fr/fr/sciences/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Environnement (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=environnement&hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – Planète",
+      "url": "https://www.lemonde.fr/planete/rss_full.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde – Climat",
+      "url": "https://www.lemonde.fr/climat/rss_full.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Futura – Environnement",
+      "url": "https://www.futura-sciences.com/rss/environnement/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Basta!",
+      "url": "https://basta.media/spip.php?page=backend",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Disclose",
+      "url": "https://disclose.ngo/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Culture (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=culture&hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "franceinfo – Culture",
+      "url": "https://www.francetvinfo.fr/culture.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde – Culture",
+      "url": "https://www.lemonde.fr/culture/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Santé (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Monde – Santé",
+      "url": "https://www.lemonde.fr/sante/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique ; à tester."
+     },
+     {
+      "name": "Futura – Santé",
+      "url": "https://www.futura-sciences.com/rss/sante/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Haute Autorité de santé – Actualités",
+      "url": "https://has-sante.fr/jcms/c_1771214/fr/nos-flux-d-information-rss",
+      "status": "to_find",
+      "sous_theme": ""
+     },
+     {
+      "name": "ANSM – Actualités",
+      "url": "https://ansm.sante.fr/page/flux-rss",
+      "status": "to_find",
+      "sous_theme": ""
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Vie pratique (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consommation&hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Figaro – Finances perso",
+      "url": "https://www.lefigaro.fr/rss/figaro_finances-perso.xml",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Futura – Maison",
+      "url": "https://www.futura-sciences.com/rss/maison/actualites.xml",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Chocolate & Zucchini",
+      "url": "https://cnz.to/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes fraîches et de saison, blog en français"
+     },
+     {
+      "name": "Mauricette French Food",
+      "url": "https://www.mauricettefrenchfood.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Voyage Gourmand",
+      "url": "https://voyagegourmand.fr/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Blog franco-québécois"
+     },
+     {
+      "name": "La Cuisine de Géraldine",
+      "url": "https://lacuisinedegeraldine.fr/en/feed",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": "URL de la version anglaise du flux ; vérifier le flux français"
+     },
+     {
+      "name": "Recettes Famille",
+      "url": "https://recettesfamille.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": "Recettes sans fruits à coque (allergies)"
+     },
+     {
+      "name": "La Cuisine de Mercotte",
+      "url": "http://www.mercotte.fr/feed/",
+      "status": "to_check",
+      "sous_theme": "gourmand",
+      "note": "Flux possiblement inactif depuis longtemps (signalé par l'utilisateur). À retirer si le test échoue."
+     },
+     {
+      "name": "Papilles et Pupilles",
+      "url": "http://feeds.feedburner.com/PapillesEtPupilles",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Blog culinaire français fondé en 2005 à Bordeaux (Anne Lataillade). Cuisine généraliste : recettes, menus, produits. URL relevée via un lien Feedly et suivie par Feeder ; non testée directement. Feedburner redirige souvent vers le flux du site."
+     }
+    ]
+   }
+  },
+  {
+   "code": "en",
+   "label": "English (US)",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Top stories (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Nation (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Home",
+      "url": "http://feeds.bbci.co.uk/news/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "NPR – News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The New York Times – Home",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/latest/rss/main",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Axios",
+      "url": "https://api.axios.com/feed/top/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – World (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – World",
+      "url": "https://www.theguardian.com/world/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Deutsche Welle – English",
+      "url": "http://rss.dw.com/rdf/rss-en-all",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "France 24 – Top stories",
+      "url": "http://www.france24.com/en/top-stories/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Business (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Business",
+      "url": "https://www.theguardian.com/uk/business/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Economics",
+      "url": "https://feeds.theguardian.com/theguardian/business/economics/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/?format=rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Economist – The world this week",
+      "url": "https://www.economist.com/the-world-this-week/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Technology (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/topnews.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC News – Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sports (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Sport",
+      "url": "https://www.theguardian.com/uk/sport/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Tennis",
+      "url": "https://www.theguardian.com/sport/tennis/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Formula 1",
+      "url": "https://www.theguardian.com/sport/formulaone/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC Sport – Rugby union",
+      "url": "http://feeds.bbci.co.uk/sport/rugby-union/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC Sport – Home",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Science (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ScienceDaily – All news",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "NASA – Breaking news",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Quanta Magazine",
+      "url": "https://api.quantamagazine.org/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Science",
+      "url": "https://www.theguardian.com/science/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/feed/home/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Environment (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=environment&hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Environment",
+      "url": "https://www.theguardian.com/uk/environment/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Climate crisis",
+      "url": "https://www.theguardian.com/environment/climate-crisis/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC News – Science & Environment",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Entertainment (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=entertainment&hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Entertainment & Arts",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Culture",
+      "url": "https://www.theguardian.com/uk/culture/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Music",
+      "url": "https://www.theguardian.com/music/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Health (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ScienceDaily – Health & Medicine",
+      "url": "https://www.sciencedaily.com/rss/health_medicine.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumer (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumer&hl=en-US&gl=US&ceid=US:en-US",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Money",
+      "url": "https://www.theguardian.com/uk/money/rss",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "BBC Future",
+      "url": "https://www.bbc.com/future/feed.rss",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Bon Appétit – Latest recipes",
+      "url": "https://www.bonappetit.com/feed/latest-recipes/rss",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Serious Eats – Recipes",
+      "url": "http://feeds.feedburner.com/seriouseats/recipes",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "The Kitchn",
+      "url": "https://www.thekitchn.com/main.rss",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "David Lebovitz",
+      "url": "https://www.davidlebovitz.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes françaises, blog en anglais"
+     },
+     {
+      "name": "Mon Petit Four",
+      "url": "https://www.monpetitfour.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes françaises, blog en anglais"
+     },
+     {
+      "name": "Mad About Macarons",
+      "url": "https://www.madaboutmacarons.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Blog en anglais"
+     },
+     {
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Well Plated by Erin",
+      "url": "https://www.wellplated.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Love and Lemons",
+      "url": "https://www.loveandlemons.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Ambitious Kitchen",
+      "url": "https://www.ambitiouskitchen.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Downshiftology",
+      "url": "https://downshiftology.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "The Healthy Epicurean",
+      "url": "https://thehealthyepicurean.eu/feed/",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": "Cuisine française revisitée, blog en anglais"
+     }
+    ]
+   }
+  },
+  {
+   "code": "gb",
+   "label": "English (UK)",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Top stories (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – UK (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – UK",
+      "url": "https://feeds.bbci.co.uk/news/uk/rss.xml",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux HTTPS vérifié dans un annuaire."
+     },
+     {
+      "name": "BBC News – Home",
+      "url": "http://feeds.bbci.co.uk/news/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "NPR – News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The New York Times – Home",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/latest/rss/main",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Axios",
+      "url": "https://api.axios.com/feed/top/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – World (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – World",
+      "url": "https://www.theguardian.com/world/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Deutsche Welle – English",
+      "url": "http://rss.dw.com/rdf/rss-en-all",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "France 24 – Top stories",
+      "url": "http://www.france24.com/en/top-stories/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Business (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Business",
+      "url": "https://www.theguardian.com/uk/business/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Economics",
+      "url": "https://feeds.theguardian.com/theguardian/business/economics/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/?format=rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Economist – The world this week",
+      "url": "https://www.economist.com/the-world-this-week/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Technology (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/topnews.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC News – Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sports (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Sport",
+      "url": "https://www.theguardian.com/uk/sport/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Tennis",
+      "url": "https://www.theguardian.com/sport/tennis/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Formula 1",
+      "url": "https://www.theguardian.com/sport/formulaone/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC Sport – Rugby union",
+      "url": "http://feeds.bbci.co.uk/sport/rugby-union/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC Sport – Home",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Science (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ScienceDaily – All news",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "NASA – Breaking news",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Quanta Magazine",
+      "url": "https://api.quantamagazine.org/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Science",
+      "url": "https://www.theguardian.com/science/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/feed/home/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Environment (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=environment&hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Environment",
+      "url": "https://www.theguardian.com/uk/environment/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Climate crisis",
+      "url": "https://www.theguardian.com/environment/climate-crisis/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "BBC News – Science & Environment",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Entertainment (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=entertainment&hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Entertainment & Arts",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Culture",
+      "url": "https://www.theguardian.com/uk/culture/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "The Guardian – Music",
+      "url": "https://www.theguardian.com/music/rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Health (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "BBC News – Health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ScienceDaily – Health & Medicine",
+      "url": "https://www.sciencedaily.com/rss/health_medicine.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumer (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumer&hl=en-GB&gl=GB&ceid=GB:en-GB",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "The Guardian – Money",
+      "url": "https://www.theguardian.com/uk/money/rss",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "BBC Future",
+      "url": "https://www.bbc.com/future/feed.rss",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Bon Appétit – Latest recipes",
+      "url": "https://www.bonappetit.com/feed/latest-recipes/rss",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Serious Eats – Recipes",
+      "url": "http://feeds.feedburner.com/seriouseats/recipes",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "The Kitchn",
+      "url": "https://www.thekitchn.com/main.rss",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "David Lebovitz",
+      "url": "https://www.davidlebovitz.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
+     },
+     {
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes françaises, blog en anglais"
+     },
+     {
+      "name": "Mon Petit Four",
+      "url": "https://www.monpetitfour.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes françaises, blog en anglais"
+     },
+     {
+      "name": "Mad About Macarons",
+      "url": "https://www.madaboutmacarons.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Blog en anglais"
+     },
+     {
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Well Plated by Erin",
+      "url": "https://www.wellplated.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Love and Lemons",
+      "url": "https://www.loveandlemons.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Ambitious Kitchen",
+      "url": "https://www.ambitiouskitchen.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Downshiftology",
+      "url": "https://downshiftology.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy"
+     },
+     {
+      "name": "The Healthy Epicurean",
+      "url": "https://thehealthyepicurean.eu/feed/",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": "Cuisine française revisitée, blog en anglais"
+     }
+    ]
+   }
+  },
+  {
+   "code": "es",
+   "label": "Español",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Portada (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Nacional (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "El País – Últimas noticias",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ultimas-noticias/portada",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El Mundo – Portada",
+      "url": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "eldiario.es",
+      "url": "https://www.eldiario.es/rss/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ABC – Portada",
+      "url": "https://www.abc.es/rss/2.0/portada/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/rss/home.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El Confidencial – España",
+      "url": "https://rss.elconfidencial.com/espana/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Internacional (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "El Mundo – Internacional",
+      "url": "https://e00-elmundo.uecdn.es/elmundo/rss/internacional.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "OKDIARIO – Internacional",
+      "url": "https://okdiario.com/internacional/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Internacional",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Economía (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "OKDIARIO – Economía",
+      "url": "https://okdiario.com/economia/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Economía",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Tecnología (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "El País – Tecnología",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Genbeta",
+      "url": "https://www.genbeta.com/feedburner.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Computer Hoy",
+      "url": "https://computerhoy.20minutos.es/rss/ultimas-noticias/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "OKDIARIO – Tecnología",
+      "url": "https://okdiario.com/tecnologia/feed",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Deportes (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Marca – Fútbol",
+      "url": "https://e00-marca.uecdn.es/rss/futbol.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Marca – Portada",
+      "url": "https://www.marca.com/rss/googlenews/portada.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "OKDIARIO – Deportes",
+      "url": "https://okdiario.com/deportes/feed",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Ciencia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Naukas",
+      "url": "http://feeds.feedburner.com/naukas",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "La Ciencia de la Mula Francis",
+      "url": "http://feeds.feedburner.com/naukas/francis",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "OKDIARIO – Ciencia",
+      "url": "https://okdiario.com/ciencia/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Ciencia",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Medio ambiente (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=medio+ambiente&hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "OKGreen",
+      "url": "https://okdiario.com/okgreen/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "OKDIARIO – Naturaleza",
+      "url": "https://okdiario.com/naturaleza/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Clima y medio ambiente",
+      "url": "https://elpais.com/clima-y-medio-ambiente/",
+      "status": "to_find",
+      "sous_theme": ""
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Cultura (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=cultura&hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "OKDIARIO – Cultura",
+      "url": "https://okdiario.com/cultura/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Cultura",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Salud (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "OKDIARIO – Salud",
+      "url": "https://okdiario.com/salud/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "El País – Salud y bienestar",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/salud-y-bienestar/portada",
+      "status": "to_check",
+      "sous_theme": ""
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumo (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumo&hl=es&gl=ES&ceid=ES:es",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "OKDIARIO – Consumo",
+      "url": "https://okdiario.com/economia/consumo/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "OKDIARIO – Vivienda",
+      "url": "https://okdiario.com/economia/vivienda/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "OKDIARIO – Lifestyle",
+      "url": "https://okdiario.com/lifestyle/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Directo al Paladar",
+      "url": "https://www.directoalpaladar.com/feed",
+      "status": "to_check",
+      "sous_theme": "gourmand",
+      "note": "Couvre aussi les recettes saines ; URL déduite du schéma du site"
+     },
+     {
+      "name": "Diario de Cuyo – Recetas",
+      "url": "https://www.diariodecuyo.com.ar/rss/pages/recetas.xml",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Journal argentin, rubrique recettes"
+     },
+     {
+      "name": "Nutrióloga Ana María (Substack)",
+      "url": "https://nutriologaanamaria.substack.com/feed",
+      "status": "to_check",
+      "sous_theme": "healthy",
+      "note": "URL déduite du schéma Substack ; à tester"
+     },
+     {
+      "name": "Recetas de rechupete",
+      "url": "https://www.recetasderechupete.com/",
+      "status": "to_find",
+      "sous_theme": "gourmand",
+      "note": "Blog trouvé ; URL du flux à extraire de la page"
+     }
+    ]
+   }
+  },
+  {
+   "code": "de",
+   "label": "Deutsch",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Schlagzeilen (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Inland (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/xml/rss2",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "SPIEGEL – Schlagzeilen",
+      "url": "https://www.spiegel.de/schlagzeilen/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ZDFheute – Nachrichten",
+      "url": "https://www.zdf.de/rss/zdf/nachrichten",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "FAZ – Aktuell",
+      "url": "https://www.faz.net/rss/aktuell/",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "ZEIT ONLINE",
+      "url": "https://newsfeed.zeit.de/index",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Süddeutsche Zeitung – Topthemen",
+      "url": "https://rss.sueddeutsche.de/rss/Topthemen",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "WELT – Topnews",
+      "url": "https://www.welt.de/feeds/topnews.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Deutschlandfunk – Nachrichten",
+      "url": "https://www.deutschlandfunk.de/die-nachrichten.353.de.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Ausland (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Deutsche Welle – Deutsch",
+      "url": "https://rss.dw.com/xml/rss-de-all",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "SPIEGEL – International",
+      "url": "https://www.spiegel.de/international/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "SPIEGEL – Ausland",
+      "url": "https://www.spiegel.de/ausland/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Wirtschaft (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "SPIEGEL – Wirtschaft",
+      "url": "https://www.spiegel.de/wirtschaft/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "manager magazin",
+      "url": "https://www.manager-magazin.de/news/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Technik (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "heise online – Top-News",
+      "url": "https://www.heise.de/rss/heise-top-atom.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "heise online – IT",
+      "url": "https://www.heise.de/rss/heise-Rubrik-IT-atom.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "SPIEGEL – Netzwelt",
+      "url": "https://www.spiegel.de/netzwelt/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "CHIP",
+      "url": "https://www.chip.de/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "THE DECODER (IA)",
+      "url": "https://the-decoder.de/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sport (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "kicker – Aktuell",
+      "url": "https://newsfeed.kicker.de/news/aktuell",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "SPIEGEL – Sport Fußball",
+      "url": "https://www.spiegel.de/sport/fussball/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Wissenschaft (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "SPIEGEL – Wissenschaft",
+      "url": "https://www.spiegel.de/wissenschaft/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Bild der Wissenschaft",
+      "url": "https://www.wissenschaft.de/",
+      "status": "to_find",
+      "sous_theme": ""
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Umwelt (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=Umwelt&hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Umwelt & Haushalt",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/umwelt-haushalt/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "pv magazine Deutschland",
+      "url": "https://www.pv-magazine.de/feed/",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Kultur (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=Kultur&hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "SPIEGEL – Kultur",
+      "url": "https://www.spiegel.de/kultur/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Gesundheit (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "SPIEGEL – Gesundheit",
+      "url": "https://www.spiegel.de/gesundheit/index.rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Gesundheit & Pflege",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/gesundheit-pflege/feed",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Bundesgesundheitsministerium – Meldungen",
+      "url": "https://www.bundesgesundheitsministerium.de/meldungen.xml",
+      "status": "listed",
+      "sous_theme": ""
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Verbraucher (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=Verbraucher&hl=de&gl=DE&ceid=DE:de",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Wissen (tous)",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Geld & Versicherungen",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/geld-versicherungen/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Lebensmittel",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/lebensmittel/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Reise & Mobilität",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/reise-mobilitaet/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "Verbraucherzentrale NRW – Digitale Welt",
+      "url": "https://www.verbraucherzentrale.nrw/wissen/digitale-welt/feed",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
+     {
+      "name": "The Local Germany – Recipes",
+      "url": "https://feeds.thelocal.com/rss/de/recipes",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes en anglais sur la cuisine allemande"
+     },
+     {
+      "name": "Chefkoch",
+      "url": "https://www.chefkoch.de/",
+      "status": "to_find",
+      "sous_theme": "gourmand",
+      "note": "Plus grande base de recettes allemande ; chercher le lien RSS en pied de page"
+     },
+     {
+      "name": "LECKER",
+      "url": "https://www.lecker.de/rezepte",
+      "status": "to_find",
+      "sous_theme": "gourmand",
+      "note": "URL du flux à extraire de la page"
+     },
+     {
+      "name": "EAT SMARTER",
+      "url": "https://www.eatsmarter.de/",
+      "status": "to_find",
+      "sous_theme": "healthy",
+      "note": "Recettes saines ; URL du flux à extraire de la page"
+     }
+    ]
+   }
+  },
+  {
+   "code": "it",
+   "label": "Italiano",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Prima pagina (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Italia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Mondo (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Economia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Tecnologia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sport (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Scienza (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Ambiente (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=ambiente&hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Cultura (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=cultura&hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Salute (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumatori (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumatori&hl=it&gl=IT&ceid=IT:it",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ]
+   }
+  },
+  {
+   "code": "nl",
+   "label": "Nederlands",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Voorpagina (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Nederland (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Buitenland (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Economie (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Tech (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Sport (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Wetenschap (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Milieu (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=milieu&hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Cultuur (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=cultuur&hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Gezondheid (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consument (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consument&hl=nl&gl=NL&ceid=NL:nl",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ]
+   }
+  },
+  {
+   "code": "pt",
+   "label": "Português (PT)",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Principais notícias (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Nacional (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Mundo (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Economia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Tecnologia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Desporto (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Ciência (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Ambiente (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=ambiente&hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Cultura (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=cultura&hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Saúde (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumo (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumo&hl=pt-PT&gl=PT&ceid=PT:pt-PT",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ]
+   }
+  },
+  {
+   "code": "br",
+   "label": "Português (BR)",
+   "themes": {
+    "news": [
+     {
+      "name": "Google News – Principais notícias (sans miniatures)",
+      "url": "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Google News – Brasil (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "world": [
+     {
+      "name": "Google News – Mundo (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "business": [
+     {
+      "name": "Google News – Economia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "tech": [
+     {
+      "name": "Google News – Tecnologia (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "sport": [
+     {
+      "name": "Google News – Esportes (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "science": [
+     {
+      "name": "Google News – Ciência (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "environment": [
+     {
+      "name": "Google News – Meio ambiente (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=meio+ambiente&hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "culture": [
+     {
+      "name": "Google News – Cultura (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=cultura&hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "health": [
+     {
+      "name": "Google News – Saúde (sans miniatures)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ],
+    "life": [
+     {
+      "name": "Google News – Consumidor (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consumidor&hl=pt-BR&gl=BR&ceid=BR:pt-BR",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     }
+    ]
+   }
+  }
+ ],
+ "sous_themes": {
+  "gourmand": "Cuisine gourmande (recettes, pâtisserie, plaisir)",
+  "healthy": "Cuisine healthy (recettes équilibrées, sans allergènes)",
+  "pratique": "Pratique (conso, finances, logement)"
+ }
+}
