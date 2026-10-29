@@ -1,5 +1,5 @@
 {
- "version": 10,
+ "version": 9,
  "generated": "2026-10-29",
  "limits": {
   "free": 3,
@@ -73,17 +73,17 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
+      "name": "Mediapart",
+      "url": "https://www.mediapart.fr/articles/feed",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Pas de flux officiel vérifié. Ancienne URL à tester ; Feeder en génère un à partir de la page d'accueil (non officiel)."
+     },
+     {
       "name": "Le Monde – À la une",
       "url": "https://www.lemonde.fr/rss/une.xml",
       "status": "listed",
       "sous_theme": ""
-     },
-     {
-      "name": "Mediapart",
-      "url": "https://www.mediapart.fr/articles/feed",
-      "status": "listed",
-      "sous_theme": "",
-      "note": ""
      },
      {
       "name": "franceinfo – Les titres",
@@ -138,20 +138,14 @@
       "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
      },
      {
-      "name": "Le Monde diplomatique",
-      "url": "https://www.monde-diplomatique.fr/recents.xml",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "Le Figaro – International",
-      "url": "https://www.lefigaro.fr/rss/figaro_international.xml",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "France 24",
       "url": "https://www.france24.com/fr/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "RFI",
+      "url": "https://www.rfi.fr/fr/rss",
       "status": "listed",
       "sous_theme": ""
      },
@@ -162,8 +156,14 @@
       "sous_theme": ""
      },
      {
-      "name": "RFI",
-      "url": "https://www.rfi.fr/fr/rss",
+      "name": "Le Figaro – International",
+      "url": "https://www.lefigaro.fr/rss/figaro_international.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde diplomatique",
+      "url": "https://www.monde-diplomatique.fr/recents.xml",
       "status": "listed",
       "sous_theme": ""
      }
@@ -212,13 +212,6 @@
       "url": "https://www.franceinfo.fr/economie/bourse/marches.rss",
       "status": "listed",
       "sous_theme": ""
-     },
-     {
-      "name": "Le Figaro - Conseils perso",
-      "url": "https://www.lefigaro.fr/rss/figaro_finances-perso.xml",
-      "status": "listed",
-      "sous_theme": "",
-      "note": ""
      }
     ],
     "tech": [
@@ -235,6 +228,13 @@
       "status": "listed",
       "sous_theme": "",
       "note": "Même URL que votre application."
+     },
+     {
+      "name": "Le Monde – Pixels",
+      "url": "https://www.lemonde.fr/pixels/rss_full.xml",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": "Schéma d'URL identique ; à tester."
      },
      {
       "name": "Les Numériques – Tests",
@@ -283,12 +283,6 @@
       "note": "Schéma d'URL identique ; à tester."
      },
      {
-      "name": "RFI – Sports",
-      "url": "https://www.rfi.fr/fr/sports/rss",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "franceinfo – Football",
       "url": "https://www.franceinfo.fr/sports/foot.rss",
       "status": "listed",
@@ -311,6 +305,12 @@
       "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "RFI – Sports",
+      "url": "https://www.rfi.fr/fr/sports/rss",
+      "status": "listed",
+      "sous_theme": ""
      }
     ],
     "science": [
@@ -324,9 +324,9 @@
      {
       "name": "Le Monde – Sciences",
       "url": "https://www.lemonde.fr/sciences/rss_full.xml",
-      "status": "listed",
+      "status": "to_check",
       "sous_theme": "",
-      "note": ""
+      "note": "Schéma d'URL identique ; à tester."
      },
      {
       "name": "Futura – Actualités",
@@ -368,12 +368,6 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
-      "name": "Disclose",
-      "url": "https://disclose.ngo/feed/",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "Le Monde – Planète",
       "url": "https://www.lemonde.fr/planete/rss_full.xml",
       "status": "listed",
@@ -394,6 +388,12 @@
      {
       "name": "Basta!",
       "url": "https://basta.media/spip.php?page=backend",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Disclose",
+      "url": "https://disclose.ngo/feed/",
       "status": "listed",
       "sous_theme": ""
      }
@@ -430,7 +430,7 @@
      {
       "name": "Le Monde – Santé",
       "url": "https://www.lemonde.fr/sante/rss_full.xml",
-      "status": "listed",
+      "status": "to_check",
       "sous_theme": "",
       "note": "Schéma d'URL identique ; à tester."
      },
@@ -442,12 +442,31 @@
      },
      {
       "name": "Haute Autorité de santé – Actualités",
-      "url": "https://has-sante.fr/feed/Rss2.jsp?id=p_3081452",
-      "status": "listed",
+      "url": "https://has-sante.fr/jcms/c_1771214/fr/nos-flux-d-information-rss",
+      "status": "to_find",
+      "sous_theme": ""
+     },
+     {
+      "name": "ANSM – Actualités",
+      "url": "https://ansm.sante.fr/page/flux-rss",
+      "status": "to_find",
       "sous_theme": ""
      }
     ],
     "life": [
+     {
+      "name": "Google News – Vie pratique (recherche) (sans miniatures)",
+      "url": "https://news.google.com/rss/search?q=consommation&hl=fr&gl=FR&ceid=FR:fr",
+      "status": "listed",
+      "sous_theme": "",
+      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+     },
+     {
+      "name": "Le Figaro – Finances perso",
+      "url": "https://www.lefigaro.fr/rss/figaro_finances-perso.xml",
+      "status": "listed",
+      "sous_theme": "pratique"
+     },
      {
       "name": "Futura – Maison",
       "url": "https://www.futura-sciences.com/rss/maison/actualites.xml",
@@ -505,9 +524,9 @@
     ]
    },
    "defaults": [
+    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
     "https://www.lemonde.fr/rss/une.xml",
-    "https://www.frandroid.com/feed",
-    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
+    "https://www.frandroid.com/feed"
    ]
   },
   {
@@ -2542,5 +2561,8 @@
  },
  "ads": {
   "url": "https://raw.githubusercontent.com/SpectreGG77/ads/main/homepage360_ads.xml"
+ },
+ "propositions": {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScTK1JJTqWEJFSAm8zItIHB0ZcqDB1D16QT1IxR1iKq93pLxQ/viewform?usp=pp_url&entry.1086306256={langue}"
  }
 }
