@@ -1,5 +1,5 @@
 {
- "version": 7,
+ "version": 8,
  "generated": "2026-10-26",
  "limits": {
   "free": 3,
@@ -522,7 +522,12 @@
       "note": "Blog culinaire français fondé en 2005 à Bordeaux (Anne Lataillade). Cuisine généraliste : recettes, menus, produits. URL relevée via un lien Feedly et suivie par Feeder ; non testée directement. Feedburner redirige souvent vers le flux du site."
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
+    "https://www.lemonde.fr/rss/une.xml",
+    "https://www.frandroid.com/feed"
+   ]
   },
   {
    "code": "en",
@@ -983,7 +988,12 @@
       "note": "Cuisine française revisitée, blog en anglais"
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en-US",
+    "https://feeds.npr.org/1001/rss.xml",
+    "https://www.cbsnews.com/latest/rss/main"
+   ]
   },
   {
    "code": "gb",
@@ -1451,7 +1461,11 @@
       "note": "Cuisine française revisitée, blog en anglais"
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en-GB",
+    "https://feeds.bbci.co.uk/news/uk/rss.xml"
+   ]
   },
   {
    "code": "es",
@@ -1774,7 +1788,12 @@
       "note": "Blog trouvé ; URL du flux à extraire de la page"
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=es&gl=ES&ceid=ES:es",
+    "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ultimas-noticias/portada",
+    "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
+   ]
   },
   {
    "code": "de",
@@ -2103,7 +2122,12 @@
       "note": "Recettes saines ; URL du flux à extraire de la page"
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=de&gl=DE&ceid=DE:de",
+    "https://www.tagesschau.de/xml/rss2",
+    "https://newsfeed.zeit.de/index"
+   ]
   },
   {
    "code": "it",
@@ -2206,7 +2230,10 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it"
+   ]
   },
   {
    "code": "nl",
@@ -2309,7 +2336,10 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=nl&gl=NL&ceid=NL:nl"
+   ]
   },
   {
    "code": "pt",
@@ -2412,7 +2442,10 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=pt-PT&gl=PT&ceid=PT:pt-PT"
+   ]
   },
   {
    "code": "br",
@@ -2515,12 +2548,18 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      }
     ]
-   }
+   },
+   "defaults": [
+    "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR"
+   ]
   }
  ],
  "sous_themes": {
   "gourmand": "Cuisine gourmande (recettes, pâtisserie, plaisir)",
   "healthy": "Cuisine healthy (recettes équilibrées, sans allergènes)",
   "pratique": "Pratique (conso, finances, logement)"
+ },
+ "ads": {
+  "url": "https://raw.githubusercontent.com/SpectreGG77/ads/main/homepage360_ads.xml"
  }
 }
