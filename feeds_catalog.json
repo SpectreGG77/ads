@@ -1,5 +1,5 @@
 {
- "version": 11,
+ "version": 12,
  "generated": "2026-10-29",
  "limits": {
   "free": 3,
@@ -73,17 +73,17 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
-      "name": "Mediapart",
-      "url": "https://www.mediapart.fr/articles/feed",
-      "status": "to_check",
-      "sous_theme": "",
-      "note": "Pas de flux officiel vérifié. Ancienne URL à tester ; Feeder en génère un à partir de la page d'accueil (non officiel)."
-     },
-     {
       "name": "Le Monde – À la une",
       "url": "https://www.lemonde.fr/rss/une.xml",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Mediapart",
+      "url": "https://www.mediapart.fr/articles/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      },
      {
       "name": "franceinfo – Les titres",
@@ -133,7 +133,7 @@
      {
       "name": "Le Monde – International",
       "url": "https://www.lemonde.fr/international/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": "",
       "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
      },
@@ -179,7 +179,7 @@
      {
       "name": "Le Monde – Économie",
       "url": "https://www.lemonde.fr/economie/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": "",
       "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
      },
@@ -212,6 +212,13 @@
       "url": "https://www.franceinfo.fr/economie/bourse/marches.rss",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Figaro Finances Perso",
+      "url": "https://www.lefigaro.fr/rss/figaro_finances-perso.xml",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "tech": [
@@ -228,13 +235,6 @@
       "status": "listed",
       "sous_theme": "",
       "note": "Même URL que votre application."
-     },
-     {
-      "name": "Le Monde – Pixels",
-      "url": "https://www.lemonde.fr/pixels/rss_full.xml",
-      "status": "to_check",
-      "sous_theme": "",
-      "note": "Schéma d'URL identique ; à tester."
      },
      {
       "name": "Les Numériques – Tests",
@@ -283,6 +283,12 @@
       "note": "Schéma d'URL identique ; à tester."
      },
      {
+      "name": "RFI – Sports",
+      "url": "https://www.rfi.fr/fr/sports/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
       "name": "franceinfo – Football",
       "url": "https://www.franceinfo.fr/sports/foot.rss",
       "status": "listed",
@@ -305,12 +311,6 @@
       "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
       "sous_theme": ""
-     },
-     {
-      "name": "RFI – Sports",
-      "url": "https://www.rfi.fr/fr/sports/rss",
-      "status": "listed",
-      "sous_theme": ""
      }
     ],
     "science": [
@@ -324,7 +324,7 @@
      {
       "name": "Le Monde – Sciences",
       "url": "https://www.lemonde.fr/sciences/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": "",
       "note": "Schéma d'URL identique ; à tester."
      },
@@ -415,7 +415,7 @@
      {
       "name": "Le Monde – Culture",
       "url": "https://www.lemonde.fr/culture/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": ""
      }
     ],
@@ -430,7 +430,7 @@
      {
       "name": "Le Monde – Santé",
       "url": "https://www.lemonde.fr/sante/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": "",
       "note": "Schéma d'URL identique ; à tester."
      },
@@ -442,14 +442,14 @@
      },
      {
       "name": "Haute Autorité de santé – Actualités",
-      "url": "https://has-sante.fr/jcms/c_1771214/fr/nos-flux-d-information-rss",
-      "status": "to_find",
+      "url": "https://has-sante.fr/feed/Rss2.jsp?id=p_3113093",
+      "status": "listed",
       "sous_theme": ""
      },
      {
       "name": "ANSM – Actualités",
-      "url": "https://ansm.sante.fr/page/flux-rss",
-      "status": "to_find",
+      "url": "https://ansm.sante.fr/rss/actualites",
+      "status": "listed",
       "sous_theme": ""
      }
     ],
@@ -460,12 +460,6 @@
       "status": "listed",
       "sous_theme": "",
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
-     },
-     {
-      "name": "Le Figaro – Finances perso",
-      "url": "https://www.lefigaro.fr/rss/figaro_finances-perso.xml",
-      "status": "listed",
-      "sous_theme": "pratique"
      },
      {
       "name": "Futura – Maison",
@@ -508,13 +502,6 @@
       "note": "Recettes sans fruits à coque (allergies)"
      },
      {
-      "name": "La Cuisine de Mercotte",
-      "url": "http://www.mercotte.fr/feed/",
-      "status": "to_check",
-      "sous_theme": "gourmand",
-      "note": "Flux possiblement inactif depuis longtemps (signalé par l'utilisateur). À retirer si le test échoue."
-     },
-     {
       "name": "Papilles et Pupilles",
       "url": "http://feeds.feedburner.com/PapillesEtPupilles",
       "status": "listed",
@@ -524,9 +511,8 @@
     ]
    },
    "defaults": [
-    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
-    "https://www.lemonde.fr/rss/une.xml",
-    "https://www.frandroid.com/feed"
+    "https://www.frandroid.com/feed",
+    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
    ]
   },
   {
