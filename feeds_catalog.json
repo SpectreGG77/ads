@@ -1,6 +1,6 @@
 {
- "version": 12,
- "generated": "2026-10-29",
+ "version": 13,
+ "generated": "2026-10-30",
  "limits": {
   "free": 3,
   "premium": 10
@@ -512,7 +512,7 @@
    },
    "defaults": [
     "https://www.frandroid.com/feed",
-    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
+    "https://www.lemonde.fr/rss/une.xml"
    ]
   },
   {
