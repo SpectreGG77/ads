@@ -1,5 +1,5 @@
 {
- "version": 15,
+ "version": 16,
  "generated": "2026-10-30",
  "limits": {
   "free": 3,
@@ -311,6 +311,13 @@
       "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Journal du Yoga",
+      "url": "https://www.yogajournal.com/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "science": [
@@ -455,23 +462,16 @@
       "sous_theme": ""
      },
      {
-      "name": "Haute Autorité de santé – Actualités",
-      "url": "https://has-sante.fr/feed/Rss2.jsp?id=p_3113093",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "ANSM – Actualités",
       "url": "https://ansm.sante.fr/rss/actualites",
       "status": "listed",
       "sous_theme": ""
      },
      {
-      "name": "Yoga Journal",
-      "url": "https://www.yogajournal.com/feed",
+      "name": "Haute Autorité de santé – Actualités",
+      "url": "https://has-sante.fr/feed/Rss2.jsp?id=p_3113093",
       "status": "listed",
-      "sous_theme": "",
-      "note": ""
+      "sous_theme": ""
      }
     ],
     "life": [
@@ -540,7 +540,8 @@
    },
    "defaults": [
     "https://www.frandroid.com/feed",
-    "https://news.google.com/rss/headlines/section/topic/NATION?hl=fr&gl=FR&ceid=FR:fr"
+    "https://www.lemonde.fr/rss/une.xml",
+    "https://www.francetvinfo.fr/titres.rss"
    ]
   },
   {
