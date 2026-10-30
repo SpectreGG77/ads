@@ -1,5 +1,5 @@
 {
- "version": 13,
+ "version": 14,
  "generated": "2026-10-30",
  "limits": {
   "free": 3,
@@ -407,6 +407,13 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
+      "name": "franceinfo – Ciné",
+      "url": "https://www.franceinfo.fr/culture/cinema.rss",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
+     },
+     {
       "name": "franceinfo – Culture",
       "url": "https://www.francetvinfo.fr/culture.rss",
       "status": "listed",
@@ -417,6 +424,13 @@
       "url": "https://www.lemonde.fr/culture/rss_full.xml",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "World of Geek - Films et séries (sans miniature)",
+      "url": "https://worldofgeek.fr/films-series/feed/",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "health": [
@@ -512,7 +526,7 @@
    },
    "defaults": [
     "https://www.frandroid.com/feed",
-    "https://www.lemonde.fr/rss/une.xml"
+    "https://news.google.com/rss/headlines/section/topic/NATION?hl=fr&gl=FR&ceid=FR:fr"
    ]
   },
   {
