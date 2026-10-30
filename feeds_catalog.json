@@ -1,5 +1,5 @@
 {
- "version": 14,
+ "version": 15,
  "generated": "2026-10-30",
  "limits": {
   "free": 3,
@@ -465,6 +465,13 @@
       "url": "https://ansm.sante.fr/rss/actualites",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Yoga Journal",
+      "url": "https://www.yogajournal.com/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "life": [
@@ -521,6 +528,13 @@
       "status": "listed",
       "sous_theme": "gourmand",
       "note": "Blog culinaire français fondé en 2005 à Bordeaux (Anne Lataillade). Cuisine généraliste : recettes, menus, produits. URL relevée via un lien Feedly et suivie par Feeder ; non testée directement. Feedburner redirige souvent vers le flux du site."
+     },
+     {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/feed/rss",
+      "status": "to_check",
+      "sous_theme": "",
+      "note": ""
      }
     ]
    },
