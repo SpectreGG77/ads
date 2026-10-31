@@ -1,6 +1,6 @@
 {
- "version": 16,
- "generated": "2026-10-30",
+ "version": 17,
+ "generated": "2026-10-31",
  "limits": {
   "free": 3,
   "premium": 10
@@ -63,14 +63,14 @@
       "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Google News – National (sans miniatures)",
       "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Le Monde – À la une",
@@ -128,14 +128,14 @@
       "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Le Monde – International",
       "url": "https://www.lemonde.fr/international/rss_full.xml",
       "status": "listed",
       "sous_theme": "",
-      "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
+      "note": ""
      },
      {
       "name": "France 24",
@@ -174,14 +174,14 @@
       "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Le Monde – Économie",
       "url": "https://www.lemonde.fr/economie/rss_full.xml",
       "status": "listed",
       "sous_theme": "",
-      "note": "Schéma d'URL identique aux rubriques vérifiées ; à tester."
+      "note": ""
      },
      {
       "name": "Le Figaro – Économie",
@@ -227,14 +227,14 @@
       "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "FrAndroid",
       "url": "https://www.frandroid.com/feed",
       "status": "listed",
       "sous_theme": "",
-      "note": "Même URL que votre application."
+      "note": ""
      },
      {
       "name": "Les Numériques – Tests",
@@ -265,6 +265,13 @@
       "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Zataz",
+      "url": "https://www.zataz.com/rss/zataz-news.rss",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "sport": [
@@ -278,13 +285,26 @@
      {
       "name": "Le Monde – Sport",
       "url": "https://www.lemonde.fr/sport/rss_full.xml",
-      "status": "to_check",
+      "status": "listed",
       "sous_theme": "",
-      "note": "Schéma d'URL identique ; à tester."
+      "note": ""
      },
      {
       "name": "RFI – Sports",
       "url": "https://www.rfi.fr/fr/sports/rss",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Journal du Yoga",
+      "url": "https://www.yogajournal.com/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
+     },
+     {
+      "name": "Le Parisien – Sports",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
       "sous_theme": ""
      },
@@ -305,19 +325,6 @@
       "url": "https://www.franceinfo.fr/sports/basket.rss",
       "status": "listed",
       "sous_theme": ""
-     },
-     {
-      "name": "Le Parisien – Sports",
-      "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "Journal du Yoga",
-      "url": "https://www.yogajournal.com/feed",
-      "status": "listed",
-      "sous_theme": "",
-      "note": ""
      }
     ],
     "science": [
@@ -326,14 +333,14 @@
       "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Le Monde – Sciences",
       "url": "https://www.lemonde.fr/sciences/rss_full.xml",
       "status": "listed",
       "sous_theme": "",
-      "note": "Schéma d'URL identique ; à tester."
+      "note": ""
      },
      {
       "name": "Futura – Actualités",
@@ -368,7 +375,7 @@
     ],
     "environment": [
      {
-      "name": "Google News – Environnement (recherche) (sans miniatures)",
+      "name": "Google News – Environnement (sans miniatures)",
       "url": "https://news.google.com/rss/search?q=environnement&hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
@@ -411,7 +418,7 @@
       "url": "https://news.google.com/rss/search?q=culture&hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "franceinfo – Ciné",
@@ -446,14 +453,14 @@
       "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
+      "note": ""
      },
      {
       "name": "Le Monde – Santé",
       "url": "https://www.lemonde.fr/sante/rss_full.xml",
       "status": "listed",
       "sous_theme": "",
-      "note": "Schéma d'URL identique ; à tester."
+      "note": ""
      },
      {
       "name": "Futura – Santé",
@@ -475,13 +482,6 @@
      }
     ],
     "life": [
-     {
-      "name": "Google News – Vie pratique (recherche) (sans miniatures)",
-      "url": "https://news.google.com/rss/search?q=consommation&hl=fr&gl=FR&ceid=FR:fr",
-      "status": "listed",
-      "sous_theme": "",
-      "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
-     },
      {
       "name": "Futura – Maison",
       "url": "https://www.futura-sciences.com/rss/maison/actualites.xml",
@@ -532,8 +532,8 @@
      {
       "name": "Bon Appétit",
       "url": "https://www.bonappetit.com/feed/rss",
-      "status": "to_check",
-      "sous_theme": "",
+      "status": "listed",
+      "sous_theme": "pratique",
       "note": ""
      }
     ]
@@ -541,7 +541,7 @@
    "defaults": [
     "https://www.frandroid.com/feed",
     "https://www.lemonde.fr/rss/une.xml",
-    "https://www.francetvinfo.fr/titres.rss"
+    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
    ]
   },
   {
