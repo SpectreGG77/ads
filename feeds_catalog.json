@@ -1,6 +1,6 @@
 {
- "version": 17,
- "generated": "2026-10-31",
+ "version": 18,
+ "generated": "2026-11-01",
  "limits": {
   "free": 3,
   "premium": 10
@@ -296,13 +296,6 @@
       "sous_theme": ""
      },
      {
-      "name": "Journal du Yoga",
-      "url": "https://www.yogajournal.com/feed",
-      "status": "listed",
-      "sous_theme": "",
-      "note": ""
-     },
-     {
       "name": "Le Parisien – Sports",
       "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
@@ -325,6 +318,13 @@
       "url": "https://www.franceinfo.fr/sports/basket.rss",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "Journal du Yoga",
+      "url": "https://www.yogajournal.com/feed",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      }
     ],
     "science": [
@@ -489,40 +489,6 @@
       "sous_theme": "pratique"
      },
      {
-      "name": "Chocolate & Zucchini",
-      "url": "https://cnz.to/feed/",
-      "status": "listed",
-      "sous_theme": "gourmand",
-      "note": "Recettes fraîches et de saison, blog en français"
-     },
-     {
-      "name": "Mauricette French Food",
-      "url": "https://www.mauricettefrenchfood.com/feed/",
-      "status": "listed",
-      "sous_theme": "gourmand"
-     },
-     {
-      "name": "Voyage Gourmand",
-      "url": "https://voyagegourmand.fr/feed/",
-      "status": "listed",
-      "sous_theme": "gourmand",
-      "note": "Blog franco-québécois"
-     },
-     {
-      "name": "La Cuisine de Géraldine",
-      "url": "https://lacuisinedegeraldine.fr/en/feed",
-      "status": "listed",
-      "sous_theme": "healthy",
-      "note": "URL de la version anglaise du flux ; vérifier le flux français"
-     },
-     {
-      "name": "Recettes Famille",
-      "url": "https://recettesfamille.com/feed/",
-      "status": "listed",
-      "sous_theme": "healthy",
-      "note": "Recettes sans fruits à coque (allergies)"
-     },
-     {
       "name": "Papilles et Pupilles",
       "url": "http://feeds.feedburner.com/PapillesEtPupilles",
       "status": "listed",
@@ -535,6 +501,40 @@
       "status": "listed",
       "sous_theme": "pratique",
       "note": ""
+     },
+     {
+      "name": "La Cuisine de Géraldine",
+      "url": "https://lacuisinedegeraldine.fr/feed",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": ""
+     },
+     {
+      "name": "Chocolate & Zucchini",
+      "url": "https://cnz.to/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Recettes fraîches et de saison, blog en français"
+     },
+     {
+      "name": "Voyage Gourmand (sans miniature)",
+      "url": "https://voyagegourmand.fr/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand",
+      "note": "Blog franco-québécois"
+     },
+     {
+      "name": "Recettes Famille (sans miniature)",
+      "url": "https://recettesfamille.com/feed/",
+      "status": "listed",
+      "sous_theme": "healthy",
+      "note": "Recettes sans fruits à coque (allergies)"
+     },
+     {
+      "name": "Mauricette French Food (sans miniature)",
+      "url": "https://www.mauricettefrenchfood.com/feed/",
+      "status": "listed",
+      "sous_theme": "gourmand"
      }
     ]
    },
