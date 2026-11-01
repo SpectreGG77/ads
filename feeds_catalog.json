@@ -1,5 +1,5 @@
 {
- "version": 18,
+ "version": 19,
  "generated": "2026-11-01",
  "limits": {
   "free": 3,
@@ -98,12 +98,6 @@
       "sous_theme": ""
      },
      {
-      "name": "Le Parisien",
-      "url": "https://feeds.leparisien.fr/leparisien/rss",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "Ouest-France – À la une",
       "url": "https://www.ouest-france.fr/rss/une",
       "status": "listed",
@@ -118,6 +112,12 @@
      {
       "name": "Slate.fr",
       "url": "https://www.slate.fr/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Parisien (sans miniatures)",
+      "url": "https://feeds.leparisien.fr/leparisien/rss",
       "status": "listed",
       "sous_theme": ""
      }
@@ -162,7 +162,7 @@
       "sous_theme": ""
      },
      {
-      "name": "Le Monde diplomatique",
+      "name": "Le Monde diplomatique (sans miniatures)",
       "url": "https://www.monde-diplomatique.fr/recents.xml",
       "status": "listed",
       "sous_theme": ""
@@ -190,18 +190,6 @@
       "sous_theme": ""
      },
      {
-      "name": "Le Parisien – Économie",
-      "url": "https://feeds.leparisien.fr/leparisien/rss/economie",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "La Tribune",
-      "url": "https://www.latribune.fr/rss/homepage",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "Challenges",
       "url": "https://www.challenges.fr/rss.xml",
       "status": "listed",
@@ -219,6 +207,18 @@
       "status": "listed",
       "sous_theme": "",
       "note": ""
+     },
+     {
+      "name": "La Tribune (sans miniatures)",
+      "url": "https://www.latribune.fr/rss/homepage",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Parisien – Économie (sans miniatures)",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/economie",
+      "status": "listed",
+      "sous_theme": ""
      }
     ],
     "tech": [
@@ -243,26 +243,8 @@
       "sous_theme": ""
      },
      {
-      "name": "Mac4Ever",
-      "url": "https://www.mac4ever.com/rss/actu",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
       "name": "franceinfo – Tech / Web",
       "url": "http://www.francetvinfo.fr/internet.rss",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "Futura – High-Tech",
-      "url": "https://www.futura-sciences.com/rss/high-tech/actualites.xml",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "Le Monde Informatique – Sécurité",
-      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml",
       "status": "listed",
       "sous_theme": ""
      },
@@ -272,6 +254,24 @@
       "status": "listed",
       "sous_theme": "",
       "note": ""
+     },
+     {
+      "name": "Futura – High-Tech",
+      "url": "https://www.futura-sciences.com/rss/high-tech/actualites.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Le Monde Informatique – Sécurité (sans miniatures)",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml",
+      "status": "listed",
+      "sous_theme": ""
+     },
+     {
+      "name": "Mac4Ever (sans miniatures)",
+      "url": "https://www.mac4ever.com/rss/actu",
+      "status": "listed",
+      "sous_theme": ""
      }
     ],
     "sport": [
@@ -292,12 +292,6 @@
      {
       "name": "RFI – Sports",
       "url": "https://www.rfi.fr/fr/sports/rss",
-      "status": "listed",
-      "sous_theme": ""
-     },
-     {
-      "name": "Le Parisien – Sports",
-      "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
       "status": "listed",
       "sous_theme": ""
      },
@@ -325,6 +319,12 @@
       "status": "listed",
       "sous_theme": "",
       "note": ""
+     },
+     {
+      "name": "Le Parisien – Sports (sans miniatures)",
+      "url": "https://feeds.leparisien.fr/leparisien/rss/sports",
+      "status": "listed",
+      "sous_theme": ""
      }
     ],
     "science": [
@@ -414,7 +414,7 @@
     ],
     "culture": [
      {
-      "name": "Google News – Culture (recherche) (sans miniatures)",
+      "name": "Google News – Culture (sans miniatures)",
       "url": "https://news.google.com/rss/search?q=culture&hl=fr&gl=FR&ceid=FR:fr",
       "status": "listed",
       "sous_theme": "",
@@ -475,7 +475,7 @@
       "sous_theme": ""
      },
      {
-      "name": "Haute Autorité de santé – Actualités",
+      "name": "Haute Autorité de santé – Actualités (sans miniatures)",
       "url": "https://has-sante.fr/feed/Rss2.jsp?id=p_3113093",
       "status": "listed",
       "sous_theme": ""
@@ -540,8 +540,7 @@
    },
    "defaults": [
     "https://www.frandroid.com/feed",
-    "https://www.lemonde.fr/rss/une.xml",
-    "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
+    "https://www.lemonde.fr/rss/une.xml"
    ]
   },
   {
@@ -582,7 +581,7 @@
       "sous_theme": ""
      },
      {
-      "name": "CBS News",
+      "name": "CBS News (sans miniatures)",
       "url": "https://www.cbsnews.com/latest/rss/main",
       "status": "listed",
       "sous_theme": ""
@@ -615,13 +614,13 @@
       "sous_theme": ""
      },
      {
-      "name": "Al Jazeera English",
+      "name": "Al Jazeera English (sans miniatures)",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "listed",
       "sous_theme": ""
      },
      {
-      "name": "Deutsche Welle – English",
+      "name": "Deutsche Welle – English (sans miniatures)",
       "url": "http://rss.dw.com/rdf/rss-en-all",
       "status": "listed",
       "sous_theme": ""
@@ -666,7 +665,7 @@
       "sous_theme": ""
      },
      {
-      "name": "The Economist – The world this week",
+      "name": "The Economist – The world this week (sans miniatures)",
       "url": "https://www.economist.com/the-world-this-week/rss.xml",
       "status": "listed",
       "sous_theme": ""
@@ -693,7 +692,7 @@
       "sous_theme": ""
      },
      {
-      "name": "TechCrunch",
+      "name": "TechCrunch (sans miniatures)",
       "url": "https://techcrunch.com/feed/",
       "status": "listed",
       "sous_theme": ""
@@ -765,13 +764,13 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
-      "name": "Nature",
+      "name": "Nature (sans miniatures)",
       "url": "https://www.nature.com/nature.rss",
       "status": "listed",
       "sous_theme": ""
      },
      {
-      "name": "ScienceDaily – All news",
+      "name": "ScienceDaily – All news (sans miniatures)",
       "url": "https://www.sciencedaily.com/rss/all.xml",
       "status": "listed",
       "sous_theme": ""
@@ -870,7 +869,7 @@
       "sous_theme": ""
      },
      {
-      "name": "ScienceDaily – Health & Medicine",
+      "name": "ScienceDaily – Health & Medicine (sans miniatures)",
       "url": "https://www.sciencedaily.com/rss/health_medicine.xml",
       "status": "listed",
       "sous_theme": ""
@@ -947,7 +946,7 @@
       "note": "Recettes françaises, blog en anglais"
      },
      {
-      "name": "Mad About Macarons",
+      "name": "Mad About Macarons (sans miniatures)",
       "url": "https://www.madaboutmacarons.com/feed/",
       "status": "listed",
       "sous_theme": "gourmand",
@@ -1055,7 +1054,7 @@
       "sous_theme": ""
      },
      {
-      "name": "CBS News",
+      "name": "CBS News (sans miniatures)",
       "url": "https://www.cbsnews.com/latest/rss/main",
       "status": "listed",
       "sous_theme": ""
@@ -1088,13 +1087,13 @@
       "sous_theme": ""
      },
      {
-      "name": "Al Jazeera English",
+      "name": "Al Jazeera English (sans miniatures)",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "listed",
       "sous_theme": ""
      },
      {
-      "name": "Deutsche Welle – English",
+      "name": "Deutsche Welle – English (sans miniatures)",
       "url": "http://rss.dw.com/rdf/rss-en-all",
       "status": "listed",
       "sous_theme": ""
@@ -1139,7 +1138,7 @@
       "sous_theme": ""
      },
      {
-      "name": "The Economist – The world this week",
+      "name": "The Economist – The world this week (sans miniatures)",
       "url": "https://www.economist.com/the-world-this-week/rss.xml",
       "status": "listed",
       "sous_theme": ""
@@ -1166,7 +1165,7 @@
       "sous_theme": ""
      },
      {
-      "name": "TechCrunch",
+      "name": "TechCrunch (sans miniatures)",
       "url": "https://techcrunch.com/feed/",
       "status": "listed",
       "sous_theme": ""
@@ -1238,13 +1237,13 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
-      "name": "Nature",
+      "name": "Nature (sans miniatures)",
       "url": "https://www.nature.com/nature.rss",
       "status": "listed",
       "sous_theme": ""
      },
      {
-      "name": "ScienceDaily – All news",
+      "name": "ScienceDaily – All news (sans miniatures)",
       "url": "https://www.sciencedaily.com/rss/all.xml",
       "status": "listed",
       "sous_theme": ""
@@ -1343,7 +1342,7 @@
       "sous_theme": ""
      },
      {
-      "name": "ScienceDaily – Health & Medicine",
+      "name": "ScienceDaily – Health & Medicine (sans miniatures)",
       "url": "https://www.sciencedaily.com/rss/health_medicine.xml",
       "status": "listed",
       "sous_theme": ""
@@ -1420,7 +1419,7 @@
       "note": "Recettes françaises, blog en anglais"
      },
      {
-      "name": "Mad About Macarons",
+      "name": "Mad About Macarons (sans miniatures)",
       "url": "https://www.madaboutmacarons.com/feed/",
       "status": "listed",
       "sous_theme": "gourmand",
@@ -1974,7 +1973,7 @@
       "note": "Flux Google News : pas de miniatures fournies par Google. Même format que votre application."
      },
      {
-      "name": "kicker – Aktuell",
+      "name": "kicker – Aktuell (sans miniatures)",
       "url": "https://newsfeed.kicker.de/news/aktuell",
       "status": "listed",
       "sous_theme": ""
