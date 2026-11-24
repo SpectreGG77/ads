@@ -1,6 +1,6 @@
 {
- "version": 19,
- "generated": "2026-11-01",
+ "version": 20,
+ "generated": "2026-11-24",
  "limits": {
   "free": 3,
   "premium": 10
@@ -438,6 +438,13 @@
       "url": "https://www.lemonde.fr/culture/rss_full.xml",
       "status": "listed",
       "sous_theme": ""
+     },
+     {
+      "name": "CineSeries",
+      "url": "https://www.cineserie.com/feed/",
+      "status": "listed",
+      "sous_theme": "",
+      "note": ""
      },
      {
       "name": "World of Geek - Films et séries (sans miniature)",
